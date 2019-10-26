@@ -50,7 +50,9 @@
             <th>BAHAN</th>
             <th>WARNA</th>
             <th>UKURAN</th>
-            <th >OPSI</th>
+            <th >DELETE</th>
+            <th>EDIT</th>
+            <th>DETAIL</th>
             </tr>
 
         </thead>
@@ -64,9 +66,9 @@
                <td><?= $mhs['warna']; ?></td>
                <td><?= $mhs['ukuran']; ?></td>
 
-               <td><a href="<?=  base_url(); ?>kerudung/hapus/<?= $mhs['id']; ?>"  class="btn btn-danger" onclick ="return confirm('yakin?')">DELETE</a>
-               <a href="<?= base_url(); ?>kerudung/ubah/<?= $mhs['id'];  ?>" class="btn btn-warning" >EDIT</a>
-               <a href="<?= base_url(); ?>kerudung/detail/<?= $mhs['id'];  ?>" class="btn btn-primary" >DETAIL</a>
+               <td><a href="<?=  base_url(); ?>kerudung/hapus/<?= $mhs['id']; ?>"  class="btn btn-danger" onclick ="return confirm('yakin?')">DELETE</a></td>
+               <td><a href="<?= base_url(); ?>kerudung/ubah/<?= $mhs['id'];  ?>" class="btn btn-warning" >EDIT</a></td>
+               <td><a href="<?= base_url(); ?>kerudung/detail/<?= $mhs['id'];  ?>" class="btn btn-primary" >DETAIL</a>
              </td>
                
 
