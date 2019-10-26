@@ -27,6 +27,7 @@
       <a class="nav-item nav-link active" href="<?= base_url(); ?>">Home <span class="sr-only"></span></a>
       <a class="nav-item nav-link" href="<?= base_url(); ?>kerudung">Kerudung</a>
       <a class="nav-item nav-link" href="#">About</a>
+      <a class="nav-item nav-link" href="<?= base_url(); ?>Peoples">Peoples</a>
       
     </div>
   </div>
